@@ -57,6 +57,9 @@ nav {
 }
 nav h1 {
   margin: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 nav h1 a {
   color: #fff;
@@ -275,4 +278,43 @@ nav h1 a {
 }
 #restaurant-hours td {
   color: #666;
+}
+
+
+/* ====================== Response ====================== */
+
+
+/* 手机 */
+@media screen and (max-width: 800px) {
+  nav h1 a {
+    font-size: 12pt;
+    letter-spacing: 1px;
+  }
+
+  #maincontent {
+    padding-top: 320px;
+  }
+
+  .inside #map-container {
+    height: 45%;
+    width: 100%;
+    top: 40px;
+  }
+
+  #restaurant-container {
+    /* display: block; */
+    width: 100%;
+    z-index: 1001;
+    padding: 80px 20px 20px;
+  }
+
+  #reviews-container {
+    width: 90%;
+    padding: 30px 10px 80px;
+  }
+  
+  #breadcrumb, .inside #footer{
+    width: 100%;
+    padding-left: 10px;
+  }
 }
