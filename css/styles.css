@@ -291,7 +291,7 @@ nav h1 a {
     letter-spacing: 1px;
   }
 
-  #maincontent {
+  .inside #maincontent {
     padding-top: 320px;
   }
 
@@ -312,7 +312,7 @@ nav h1 a {
     width: 90%;
     padding: 30px 10px 80px;
   }
-  
+
   #breadcrumb, .inside #footer{
     width: 100%;
     padding-left: 10px;
