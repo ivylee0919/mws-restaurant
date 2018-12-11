@@ -4,9 +4,9 @@ let restaurants,
 var newMap
 var markers = []
 
+// 注册 serviceWorker
 function _registerServiceWorker() {
   if (!navigator.serviceWorker) return;
-
   navigator.serviceWorker.register('/sw.js').then(function () {
     console.log('Registration worked!');
   }).catch(function (err) {
